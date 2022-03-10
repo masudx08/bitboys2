@@ -1,0 +1,25 @@
+.roadmapC{
+  background-image: url(../../images/roadmap-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  padding: 100px 0;
+}
+.roadmapC .inner{
+  width: 90%;
+  margin: auto
+}
+
+.roadmapC .text-area{
+  margin-bottom: 83px;
+}
+
+@media only screen and (max-width: 991px){
+  .roadmapC {
+    text-align: center;
+    padding: 30px 0
+  }
+  .roadmapC .text-area{
+    margin-bottom: 45px;
+  }
+}

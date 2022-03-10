@@ -1,0 +1,133 @@
+.teamImages {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin-top: 55px;
+}
+.taskImages {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin-bottom: 50px;
+}
+
+.teamImages img{
+  width: 200px;
+  height: auto;
+  max-width: 100%;
+  margin-top: 10px;
+
+}
+
+.taskImages img{
+  width: 230px;
+  height: auto;
+  max-width: 100%;
+}
+
+.teamC .team{
+  
+  background-image: url(../../images/team-img.png);
+  background-size: 90%;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 146px;
+  padding-bottom: 400px;
+}
+
+.teamC .task{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.task .text-area{
+  width: 50%;
+  margin: auto;
+  margin-bottom: 53px;
+}
+
+.team p{
+  line-height: 10px;
+}
+
+.react-multi-carousel-dot button {
+  width: 18px;
+  height: 18px;
+}
+.react-multi-carousel-dot--active button {
+  /* background-color: rgba(0, 209, 255, 1); */
+  background-color:rgba(85, 206, 232, 1);
+  border: none;
+}
+
+@media only screen and (max-width: 991px){
+  .teamC{
+    margin-top: 50px;
+  }
+  .teamC .team {
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 50px;
+    background: none;
+    margin-top: 30px;
+  }
+  .teamC .task{
+    margin-top: 0
+  }
+  .teamImages{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .memberCont{
+    width:100%;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 30px;
+    background: #0c0b0bd4;
+    padding: 20px;
+  }
+  .teamImages img {
+    width: 150px;
+    margin-bottom: 15px;
+    margin-top: 0
+  }
+
+  .teamC p{
+    line-height: 30px;
+  }
+ .teamImages .title p{
+   font-size: 20px;
+   line-height: 0;
+ }
+  .teamC small{
+    font-size: 12px
+  }
+  .task .text-area{
+    width: 80%;
+    margin-bottom: 0;
+  }
+}

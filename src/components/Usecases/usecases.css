@@ -1,0 +1,63 @@
+
+.useCasesC{
+    background-image: url(../../images/datahub-img.png);
+    background-position: left;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    margin-top: 241px;
+  }
+  
+  .useCasesC .inner{
+    width: 90%;
+    margin: auto;
+  }
+  .useCasesC .right{
+    margin-top: 146px;
+  }
+  
+   .useCasesC .rightInner{
+    width: 50%;
+    margin-left: auto;
+  }
+  
+   .useCasesC .rightInner .text-area{
+    margin-bottom: 57px;
+  }
+   .useCasesC .bottom{
+    text-align: right;
+    margin-top: 54px;
+  }
+   .useCasesC .bottom p{
+    font-size: 24px;
+  line-height: 35px;
+  }
+
+
+  @media only screen and (max-width: 991px){
+    .useCasesC{
+      margin-top: 0
+    }
+    .useCasesC .inner {
+      text-align: center;
+      margin-top: 80px;
+    }
+    .useCasesC .right {
+      margin-top: 30px;
+    }
+    .useCasesC .rightInner{
+      width: 100%;
+      margin: auto
+    }
+    .useCasesC  .bottom p{
+      font-size: 16px;
+    }
+    .useCasesC  .bottom{
+      text-align: center;
+    }
+  }
+
+  @media only screen and (min-width: 992px){
+    .useCasesC .right{
+      margin-top: 50px;
+    }
+  }

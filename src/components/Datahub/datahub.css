@@ -1,0 +1,62 @@
+.datahubC{
+  background-image: url(../../images/datahub-img.png);
+  background-position: left;
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+.datahubC .inner{
+  width: 90%;
+  margin: auto;
+}
+.datahubC .right{
+  margin-top: 146px;
+}
+/* .datahubC .text-area p{
+  font-size: 30px;
+  line-height: 37.14px;
+} */
+
+.rightInner{
+  width: 50%;
+  margin-left: auto;
+}
+
+.rightInner .text-area{
+  margin-bottom: 57px;
+}
+.datahubC .bottom{
+  text-align: right;
+  margin-top: 54px
+}
+/* .datahubC .bottom p{
+  font-size: 24px;
+  line-height: 35px;
+} */
+
+
+@media only screen and (max-width: 991px){
+  .datahubC .rightInner {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+  .datahubC .right {
+    margin-top: 30px;
+  }
+  .datahubC h1{
+    text-align: center;
+  }
+  .datahubC b{
+    font-size: 18px
+  }
+  .datahubC .bottom {
+    text-align: center;
+  }
+  
+}
+  @media only screen and (min-width: 992px){
+    .datahubC .right {
+      margin-top: 49px;
+    }
+  }

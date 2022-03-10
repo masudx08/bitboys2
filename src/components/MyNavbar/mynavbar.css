@@ -1,0 +1,134 @@
+.mynavbarC{
+  padding-top: 24px;
+  width: 85%;
+  margin: auto;
+}
+
+.navbar-nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.links a:last-child{
+  margin-right: 0;
+}
+.nav-logo{
+  max-width: 244px;
+  width: 100%;
+  height: auto;
+}
+.nav-icons img{
+  width: 100%; 
+  padding: 20px
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  padding: 0;
+  margin: 0 24px;
+  font-size: 24px
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+  color: rgba(85, 206, 232, 1)
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+  color: rgba(85, 206, 232, 1)
+}
+.navbar-light .navbar-toggler-icon{
+  background-image: url('../../images/nav.svg');
+}
+
+.offcanvas-start{
+  width: 50%
+}
+
+
+ /* Custom Sidebar  */
+ .customSidebar{
+  width: 50%;
+  height: 100%;
+  z-index: 1000;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #1B1B1B;
+  transition: transform 0.7s;
+
+ }
+ .customSidebar a{
+   line-height: 50px;
+ }
+
+.hideIt{
+  transform: translateX(-100vw);
+  transition: transform 0.7s;
+}
+.crossbtn{
+  width:100%;
+  height: 50px;
+  background-color: #252525;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; 
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+
+.crossbtn svg{
+  cursor: pointer
+}
+.outlineBtn{
+  border: 1px solid #FFFFFF;
+  align-items: center;
+  padding: 5px 10px
+ 
+}
+.outlineBtn:hover{
+  background-color: rgb(41, 41, 41);
+  cursor: pointer;
+}
+.outlineBtn:hover > p{
+  color: white
+}
+.outlineBtn p{
+  font-weight: 400;
+  margin: 0;
+  padding: 0
+}
+
+
+
+
+@media only screen and (max-width: 991px){
+  .mynavbarC{
+    width: 98%;
+  }
+  .nav-logo{
+    width: 3.43rem;
+  }
+  .nav-icon{
+    width: 99%;
+  }
+  .icon-bg{
+    width: 40px;
+    height: 40px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 16px
+  }
+  
+}
+@media only screen and (max-width: 991px){
+  .hideTheMenu{
+    display: none;
+  }
+}
+@media only screen and (min-width: 992px){
+  .nav-logo{
+    margin-left: -43px;
+  }
+}

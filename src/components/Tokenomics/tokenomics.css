@@ -1,0 +1,79 @@
+.tokenomicsC .setbg{
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.tokenomicsC {
+  margin: auto;
+  margin-top: 200px;
+}
+.tokenomicsC img{
+  width: 100%;
+}
+
+
+.tokenomicsC .inner{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tokenomicsC h1{
+  margin-bottom: 100px;
+
+}
+.tokenomicsC p{
+  margin: 0
+}
+.tokenomicsC .topContainer{
+  width: 80%;
+}
+
+.tokeRow{
+  padding: 0 2%;
+  width: 100%
+}
+
+.tokenomics_right{
+  flex-shrink: 1;
+}
+
+
+@media only screen and (max-width: 991px){
+  .tokenomicsC{
+    margin-top : 80px;
+  }
+}
+
+    @media only screen and (min-width: 992px){
+      .tokenomicsC h1{
+        margin-bottom: 0;
+        font-size: 80px;
+      }
+      .tokenomicsC .topContainer{
+        margin-top: 15px;
+      }
+     
+    }
+
+    @media only screen and (max-width: 1699px){
+      .tokenomicsC{
+        text-align: center;
+      }
+      .tokenomicsC h1{
+        margin-bottom: 0;
+      }
+      .tokenomicsC .inner{
+       display: block;
+      }
+      .tokenomicsC .topContainer{
+        width: 100%
+      }
+      .tokenomicsC .topContainer img{
+        width: 100%
+      }
+      .tokenomicsC .setbg{
+        background-image: url(../../images/tokenomics-bg.png);
+      }
+    }

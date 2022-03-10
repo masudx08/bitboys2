@@ -1,0 +1,77 @@
+.headerC{
+  background-image: url(../../images/header-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 10px;
+}
+.headerC img{
+  width: 100%;
+  max-width: 534px;
+}
+.headerC .inner{
+  width: 90%; 
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.main-logo{
+  display: flex;
+  justify-content: flex-end;
+}
+.headerC h1{
+  margin-top: 122px;
+}
+.headerC p{
+  font-weight: 400;
+}
+.headerC p:nth-child(1){
+  margin-bottom: 42px
+}
+.headerC .text-area{
+  margin-bottom: 133px;
+  margin-top: 60px;
+}
+
+
+.headerC .btn1{
+  background-color: rgb(152, 53, 250);
+  padding: 12px 74px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+.headerC .btn1:hover{
+  background-color: rgb(175, 105, 245);
+}
+.headerC .btn2{
+  background-color: rgba(232, 27, 229, 1);
+  padding: 12px 74px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+}
+.headerC .btn2:hover{
+  background-color: rgb(245, 86, 242);
+}
+
+
+ /* ----------------- Responsive -------------------  */
+ @media only screen and (max-width: 991px){
+  .headerC .btn1, .headerC .btn2{
+    padding: 12px 20px;
+    font-size: 14px
+  }
+  .headerC .btn1{
+    margin-right: 20px;
+  }
+  .headerC .text-area {
+    margin-bottom: 50px;
+    margin-top: 40px;
+  }
+  .headerC h1 {
+    margin-top: 50px;
+  }
+ }

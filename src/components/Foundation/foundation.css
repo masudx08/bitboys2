@@ -1,0 +1,83 @@
+.foundationC{
+  background-image: url(../../images/foundation-img.png);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  margin-top: 224px
+}
+
+.foundationC .inner{
+  width: 90%;
+  margin: auto
+}
+
+.foundationBox{
+  background: rgba(19, 19, 19, 1);
+  padding: 20px;
+  border-radius: 30px;
+  margin-bottom: 38px;
+}
+
+.foundationC .top{
+  width: 80%
+}
+
+.foundationC .left{
+  width: 50%;
+  margin-top: 88px
+}
+
+.foundationBox:nth-child(1){
+  position: relative;
+  left: 20%;
+}
+.foundationBox:nth-child(3){
+  position: relative;
+  left: 80%;
+}
+
+@media only screen and (max-width: 991px){
+  .foundationBox:nth-child(1){
+    position: static;
+    left: 20%;
+  }
+  .foundationBox:nth-child(3){
+    position: static;
+    left: 80%;
+  }
+  .foundationC .top {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .foundationC .top h1{
+    margin-bottom: 30px;
+  }
+  
+  .foundationC{
+    margin-top: 50px
+  }
+  .foundationC .left{
+    width: 100%;
+    margin: auto
+  }
+  .foundationBox{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+  }
+  .foundationBox h4{
+    font-size: 17px;
+    line-height: 20px;
+  }
+  .foundationBox p{
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 992px){
+  .foundationC{
+    margin-top: 0;
+  }
+}
