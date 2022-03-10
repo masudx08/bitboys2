@@ -24,12 +24,7 @@
   margin: auto;
 }
 
-.techC .left{
-  width: 50%;
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-}
+
 
 .techC .right div{
   width: 50%;
@@ -52,11 +47,7 @@
   margin-top: 30px;
 }
 
-.techBox.one{
-  position: relative;
-  left: 20%;
-  margin-top: 30px;
-}
+
 
 @media only screen and (max-width: 991px){
   .techC .inner1 {
@@ -97,9 +88,7 @@
 }
 
 @media only screen and (min-width: 992px){
-  .techBox.one{
-    margin-top: 10px;
-  }
+
   .techBox{
     margin-bottom: 25px;
   }

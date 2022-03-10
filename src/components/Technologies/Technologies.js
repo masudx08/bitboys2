@@ -1,4 +1,5 @@
 import React from 'react'
+import { Col, Row } from 'react-bootstrap'
 import './technologies.css'
 export default function Technologies() {
   return (
@@ -9,7 +10,7 @@ export default function Technologies() {
             <div>
             <h1>Kynno Zkps Technologies</h1>
             </div>
-            <div className="left">
+            <div >
               <div>
                 <p>Storing personal data in a decentralized way while guaranteeing its security
                   is made possible by combining Kynno’s disruptive blockchain technology and
@@ -22,33 +23,34 @@ export default function Technologies() {
                 </p>
               </div>
 
-              <div className='techBox one'>
-                <h4>Grant and Delegation Programs:</h4>
-                <p>
-                  The Kynno Foundation will reserve funds for R&D
-                  initiatives led by third parties that bring value to the
-                  ecosystem’s growth.
-                </p>
-              </div>
-              <div className='techBox two'>
-                <h4>Research:</h4>
-                <p>
-                  The Kynno Foundation will reserve funds for R&D
-                  initiatives led by third parties that bring value to the
-                  ecosystem’s growth.
-                </p>
-              </div>
+              <Row>
+                <Col className='techBox '>
+                  <h4>Grant and Delegation Programs:</h4>
+                  <p>
+                    The Kynno Foundation will reserve funds for R&D
+                    initiatives led by third parties that bring value to the
+                    ecosystem’s growth.
+                  </p>
+                </Col>
+                <Col className='techBox '>
+                  <h4>Research:</h4>
+                  <p>
+                    The Kynno Foundation will reserve funds for R&D
+                    initiatives led by third parties that bring value to the
+                    ecosystem’s growth.
+                  </p>
+                </Col>
+                <Col className='techBox'>
+                  <h4>Education and Advancement:</h4>
+                  <p>
+                    A Kynno school to educate people, companies and
+                    governments and leverage knowledge to push for
+                    decentralized technologies’ mass adoption.
+                  </p>
+                </Col>
+              </Row>
             </div>
-            <div className="right">
-              <div className='techBox'>
-                <h4>Education and Advancement:</h4>
-                <p>
-                  A Kynno school to educate people, companies and
-                  governments and leverage knowledge to push for
-                  decentralized technologies’ mass adoption.
-                </p>
-              </div>
-            </div>
+            
           </div>
         </div>
         <div className='setbg-2'>

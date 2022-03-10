@@ -22,29 +22,12 @@
   width: 80%
 }
 
-.foundationC .left{
-  width: 50%;
-  margin-top: 88px
-}
 
-.foundationBox:nth-child(1){
-  position: relative;
-  left: 20%;
-}
-.foundationBox:nth-child(3){
-  position: relative;
-  left: 80%;
-}
+
+
 
 @media only screen and (max-width: 991px){
-  .foundationBox:nth-child(1){
-    position: static;
-    left: 20%;
-  }
-  .foundationBox:nth-child(3){
-    position: static;
-    left: 80%;
-  }
+ 
   .foundationC .top {
     width: 100%;
     text-align: center;

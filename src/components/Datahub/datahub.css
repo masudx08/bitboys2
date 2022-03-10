@@ -9,22 +9,15 @@
   width: 90%;
   margin: auto;
 }
-.datahubC .right{
-  margin-top: 146px;
-}
+
 /* .datahubC .text-area p{
   font-size: 30px;
   line-height: 37.14px;
 } */
 
-.rightInner{
-  width: 50%;
-  margin-left: auto;
-}
 
-.rightInner .text-area{
-  margin-bottom: 57px;
-}
+
+
 .datahubC .bottom{
   text-align: right;
   margin-top: 54px
@@ -36,14 +29,7 @@
 
 
 @media only screen and (max-width: 991px){
-  .datahubC .rightInner {
-    width: 100%;
-    text-align: center;
-    margin: auto;
-  }
-  .datahubC .right {
-    margin-top: 30px;
-  }
+
   .datahubC h1{
     text-align: center;
   }
@@ -56,7 +42,5 @@
   
 }
   @media only screen and (min-width: 992px){
-    .datahubC .right {
-      margin-top: 49px;
-    }
+    
   }
