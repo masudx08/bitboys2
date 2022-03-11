@@ -23,7 +23,7 @@ export default function Footer() {
       </div>
     <div className='footer-bottom'>
       <div style={{width:'206px'}} className='hideInMobile'>
-        <img src={Logo} alt="" />
+        <img className='footerLogo' src={Logo} alt="" />
       </div>
       <div>
         <p>© 2022 Kynno. All Rights Reserved</p>
