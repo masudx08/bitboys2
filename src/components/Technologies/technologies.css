@@ -1,7 +1,7 @@
 .techC .setbg-1{
   background-image: url(../../images/technologies-img.png);
   background-repeat: no-repeat;
-  background-size: 63%;
+  background-size: 100%;
   background-position: right
 }
 .techC .setbg-2{
@@ -12,7 +12,6 @@
 }
 
 .techC .inner1{
-  width: 90%;
   margin: auto;
   padding-top: 104px;
 }
@@ -26,14 +25,12 @@
 
 
 
-.techC .right div{
-  width: 50%;
-  margin-left: auto;
-}
+
 
 .techBox{
   width: 100%;
-  background-color: rgba(19, 19, 19, 1);
+  background: rgba(235, 0, 255, 0.22);
+  backdrop-filter: blur(200px);
   border-radius: 25px;
   padding: 20px;
   margin-bottom: 65px;

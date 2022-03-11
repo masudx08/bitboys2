@@ -1,5 +1,6 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
+import Tilt from 'react-tilt'
 import './foundation.css'
 export default function Foundation() {
   return (
@@ -17,24 +18,31 @@ export default function Foundation() {
           </p>
         </div>
         <Row >
-          <Col className='foundationBox'>
-            <h4>Grant and Delegation Programs:</h4>
-            <p>The Kynno Foundation will reserve funds for R&D
-              initiatives led by third parties that bring value to the
-              ecosystem’s growth.</p>
+          <Col>
+            <Tilt className="Tilt foundationBox" options={{ max : 25 }} >
+              <h4>Grant and Delegation Programs:</h4>
+              <p>The Kynno Foundation will reserve funds for R&D
+                initiatives led by third parties that bring value to the
+                ecosystem’s growth.</p>
+            </Tilt>
           </Col>
-          <Col className='foundationBox'>
+          <Col>
+            <Tilt className="Tilt foundationBox" options={{ max : 25 }} >
             <h4>Research:</h4>
             <p>The Kynno Foundation will reserve funds for R&D
               initiatives led by third parties that bring value to the
               ecosystem’s growth.</p>
+            </Tilt>
           </Col>
-          <Col className='foundationBox'>
+          <Col>
+            <Tilt className="Tilt foundationBox" options={{ max : 25 }} >
             <h4>Education and Advancement:</h4>
             <p>A Kynno school to educate people, companies and
               governments and leverage knowledge to push for
               decentralized technologies’ mass adoption.</p>
+            </Tilt>
           </Col>
+         
         </Row>
       </div>
     </div>

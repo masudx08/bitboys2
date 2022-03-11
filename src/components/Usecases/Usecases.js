@@ -61,7 +61,7 @@ export default function Usecases() {
           </p>
         </div>
         <div>
-          <CustomSlider data={data} desktop={3} tab={1} mobile={1} />
+          <CustomSlider data={data} desktop={3} tab={3} mobile={1} />
         </div>
         <div className='bottom'>
           <h3>We’re On A Mission To Democratize Cryptocurrency</h3>

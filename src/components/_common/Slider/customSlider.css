@@ -4,13 +4,16 @@
   overflow: hidden;
   justify-content: center;
   margin-right: 10px;
+  background-image: url(../../../images/datahub-img.png);
+  border-radius: 20px;
+
 }
 
 .sliderC{
   width: 550px;
-  background-color: rgba(19, 19, 19, 1);
+  background: rgba(235, 0, 255, 0.22);
+  backdrop-filter: blur(200px);
   padding: 30px;
-  border-radius: 20px;
   display: flex;
   justify-content: center;
  

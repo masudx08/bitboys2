@@ -1,5 +1,6 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
+
 import CustomSlider from '../_common/Slider/CustomSlider'
 import './datahub.css'
 
@@ -43,7 +44,7 @@ export default function Datahub() {
     },
   ]
   return (
-    <div className='datahubC' id='whitepaper'>
+      <div className='datahubC' id='whitepaper'>
       <div className='inner'>
         <div>
           <h1>Kynno Data Hub</h1>
@@ -56,7 +57,7 @@ export default function Datahub() {
           </p>
         </div>
         <div>
-          <CustomSlider data={data} desktop={3} tab={1} mobile={1} />
+          <CustomSlider data={data} desktop={3} tab={3} mobile={1} />
         </div>
 
         <div className='bottom'>
@@ -77,5 +78,6 @@ export default function Datahub() {
         </div>
       </div>
     </div>
+    
   )
 }

@@ -3,6 +3,7 @@ import './customSlider.css'
 import Line from '../../../images/line.png'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import Tilt from 'react-tilt'
 export default function CustomSlider({data, desktop, tab,  mobile}) {
   
   const responsive = {
@@ -30,7 +31,8 @@ export default function CustomSlider({data, desktop, tab,  mobile}) {
        {
           data && data.map((item, index)=>{
             return (
-              <div key={index} className="slider-container">
+              <div key={index}>
+                 <Tilt className="Tilt slider-container" options={{ max : 25 }} >
                 <div className='sliderC'>
               <div key={item}>
                 {/* <div>
@@ -54,6 +56,7 @@ export default function CustomSlider({data, desktop, tab,  mobile}) {
                 </p>
                 </div>
                 </div>
+                </Tilt>
               </div>
             )
           })

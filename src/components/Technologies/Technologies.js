@@ -1,8 +1,10 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
+import Tilt from 'react-tilt'
 import './technologies.css'
 export default function Technologies() {
   return (
+    
     <div className='techC'>
       <div>
         <div className='setbg-1'>
@@ -24,29 +26,41 @@ export default function Technologies() {
               </div>
 
               <Row>
-                <Col className='techBox '>
-                  <h4>Grant and Delegation Programs:</h4>
-                  <p>
-                    The Kynno Foundation will reserve funds for R&D
-                    initiatives led by third parties that bring value to the
-                    ecosystem’s growth.
-                  </p>
+                <Col>
+                <Tilt className="Tilt techBox" options={{ max : 25 }} >
+                  <div className="Tilt-inner">
+                    <h4>Grant and Delegation Programs:</h4>
+                    <p>
+                      The Kynno Foundation will reserve funds for R&D
+                      initiatives led by third parties that bring value to the
+                      ecosystem’s growth.
+                    </p>
+                  </div>
+                </Tilt>
                 </Col>
-                <Col className='techBox '>
+                <Col>
+                <Tilt className="Tilt techBox" options={{ max : 25 }} >
+                  <div className="Tilt-inner">
                   <h4>Research:</h4>
                   <p>
                     The Kynno Foundation will reserve funds for R&D
                     initiatives led by third parties that bring value to the
                     ecosystem’s growth.
                   </p>
+                  </div>
+                </Tilt>
                 </Col>
-                <Col className='techBox'>
+                <Col>
+                <Tilt className="Tilt techBox" options={{ max : 25 }} >
+                  <div className="Tilt-inner">
                   <h4>Education and Advancement:</h4>
                   <p>
                     A Kynno school to educate people, companies and
                     governments and leverage knowledge to push for
                     decentralized technologies’ mass adoption.
                   </p>
+                  </div>
+                </Tilt>
                 </Col>
               </Row>
             </div>
