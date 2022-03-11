@@ -1,13 +1,22 @@
 .datahubC{
   background-image: url(../../images/datahub-img.png);
-  background-position: left;
-  background-size: 50%;
+  background-position: center;
+  background-size: 60%;
   background-repeat: no-repeat;
 }
 
 .datahubC .inner{
   width: 90%;
   margin: auto;
+}
+
+.datahubC .top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.datahubC .top div{
+  width: 100%;
 }
 
 /* .datahubC .text-area p{
@@ -29,7 +38,9 @@
 
 
 @media only screen and (max-width: 991px){
-
+  .datahubC .top{
+    display: block;
+  }
   .datahubC h1{
     text-align: center;
   }

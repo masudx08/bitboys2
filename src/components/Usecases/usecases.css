@@ -11,6 +11,16 @@
     width: 90%;
     margin: auto;
   }
+  .useCasesC .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .useCasesC .top div{
+    width: 100%;
+    margin-bottom: 50px;
+  }
   .useCasesC .right{
     margin-top: 146px;
   }
@@ -53,6 +63,9 @@
     }
     .useCasesC  .bottom{
       text-align: center;
+    }
+    .useCasesC .top{
+      display: block;
     }
   }
 

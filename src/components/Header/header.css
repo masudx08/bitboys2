@@ -22,6 +22,7 @@
   justify-content: flex-end;
 }
 .headerC h1{
+  font-size: 100px;
   margin-top: 122px;
 }
 .headerC p{
@@ -75,5 +76,7 @@
   }
   .headerC h1 {
     margin-top: 50px;
+    font-size: 37px;
+    line-height: 45px;
   }
  }

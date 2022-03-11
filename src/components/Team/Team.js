@@ -50,28 +50,68 @@ export default function Team() {
     },
   ]
   const taskForces = [
-    {img: Task1},
-    {img: Task2},
-    {img: Task3},
-    {img: Task4},
-    {img: Task5},
-    {img: Task1},
-    {img: Task2},
-    {img: Task3},
-    {img: Task4},
-    {img: Task5},
+    {
+      img: Task1,
+      name: 'Simo Alami',
+      title: 'CEO & Co-Founder'
+    },
+    {
+      img: Task2,
+      name: 'Simo Alami',
+      title: 'CEO & Co-Founder'
+    },
+    {
+      img: Task3,
+      name: 'Simo Alami',
+      title: 'CEO & Co-Founder'
+    },
+    {
+      img: Task4,
+      name: 'Simo Alami',
+      title: 'CEO & Co-Founder'
+    },
+    {
+      img: Task5,
+      name: 'Simo Alami',
+      title: 'CEO & Co-Founder'
+    },
+    {
+      img: Task1,
+      name: 'Simo Alami',
+      title: 'CEO & Co-Founder'
+    },
+    {
+      img: Task2,
+      name: 'Simo Alami',
+      title: 'CEO & Co-Founder'
+    },
+    {
+      img: Task3,
+      name: 'Simo Alami',
+      title: 'CEO & Co-Founder'
+    },
+    {
+      img: Task4,
+      name: 'Simo Alami',
+      title: 'CEO & Co-Founder'
+    },
+    {
+      img: Task5,
+      name: 'Simo Alami',
+      title: 'CEO & Co-Founder'
+    },
   ]
 
-  
+
   return (
-    <div  id='team' className='teamC'>
-      
+    <div id='team' className='teamC'>
+
       <div className="team">
         <div>
           <h1>Leadership Team</h1>
           <p>A Task Force Of Seasoned Professionals</p>
         </div>
-        
+
         <div className='d-flex teamImages'>
           {
             teamMembers.map((member, id) => {
@@ -85,15 +125,15 @@ export default function Team() {
                     <div className='text-center'>
                       Lorem Ipsum is simply <br />
                       dummy text of the printing  <br />
-                       and typesetting industry.  <br />
-                        Lorem Ipsum has been  <br />
+                      and typesetting industry.  <br />
+                      Lorem Ipsum has been  <br />
                     </div>
                   }>
-                  <div className='myImg'>
+                    <div className='myImg'>
                       <img src={member.img} alt="" />
-                  </div>
+                    </div>
                   </Tooltip>
-                  
+
                 </div>
               )
             })
@@ -107,28 +147,33 @@ export default function Team() {
             professionals working tirelessly to make this project the Unicorn of Crypto!</p>
         </div>
       </div>
-      <Carousel 
+      <Carousel
         responsive={responsive}
         showDots={true}
         dotListClass="custom-dot-list-style"
       >
-      
-          {
-            taskForces.map((task, id) => {
-              return (
-                <div key={id} className='d-flex taskImages'>
+
+        {
+          taskForces.map((task, id) => {
+            return (
+              <div key={id} className='d-flex taskImages'>
                 <div key={id}>
                   <div>
                     <img src={task.img} alt="" />
+                    <div className='title text-center'>
+                      <p>{task.name}</p>
+                      <small>{task.title}</small>
+                    </div>
                   </div>
                 </div>
-                </div>
-              )
-            })
-          }
-         
-        
-        </Carousel>
-    </div>
+              </div>
+
+            )
+          })
+        }
+
+
+      </Carousel >
+    </div >
   )
 }

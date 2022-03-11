@@ -10,9 +10,9 @@
 }
 
 .sliderC{
-  width: 550px;
+  max-width: 550px;
   background: rgba(235, 0, 255, 0.22);
-  backdrop-filter: blur(200px);
+  backdrop-filter: blur(50px);
   padding: 30px;
   display: flex;
   justify-content: center;

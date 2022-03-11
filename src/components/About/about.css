@@ -1,7 +1,6 @@
 .aboutC{
   padding-top: 123px;
   padding-bottom: 183px;
-  
 }
 .relative{
   position: relative;
@@ -12,6 +11,9 @@
   background-repeat: no-repeat;
   background-position: left;
   height: 600px;
+}
+.aboutC h1{
+  font-size: 100px
 }
 .aboutC .inner{
   width: 90%;
@@ -58,6 +60,10 @@
    margin-left: 60px;
    bottom: 32%;
    top: 44%;
+  }
+  .aboutC h1 {
+    font-size: 37px;
+    line-height: 45px;
   }
 
 }

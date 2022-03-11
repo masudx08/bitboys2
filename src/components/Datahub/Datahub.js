@@ -44,20 +44,24 @@ export default function Datahub() {
     },
   ]
   return (
-      <div className='datahubC' id='whitepaper'>
-      <div className='inner'>
-        <div>
-          <h1>Kynno Data Hub</h1>
+    <div className='datahubC' id='whitepaper'>
+      <div className='inner '>
+        <div className='top mb-5'>
+          <div>
+            <h1>Kynno Data Hub</h1>
+          </div>
+          <div className='text-area'>
+            <p>
+              Kynno is a revolutionary decentralized permissionless enterprise
+              grade blockchain platform, built to support and operate secure,
+              compliant, and cutting-edge digital infrastructures.
+            </p>
+          </div>
         </div>
-        <div className='text-area'>
-          <p>
-            Kynno is a revolutionary decentralized permissionless enterprise
-            grade blockchain platform, built to support and operate secure,
-            compliant, and cutting-edge digital infrastructures.
-          </p>
-        </div>
         <div>
-          <CustomSlider data={data} desktop={3} tab={3} mobile={1} />
+          <CustomSlider data={data} desktop={3} tab={2} mobile={1} >
+
+          </CustomSlider>
         </div>
 
         <div className='bottom'>
@@ -78,6 +82,6 @@ export default function Datahub() {
         </div>
       </div>
     </div>
-    
+
   )
 }

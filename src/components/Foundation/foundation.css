@@ -10,20 +10,27 @@
   width: 90%;
   margin: auto
 }
-
+.foundationC .mycol{
+  max-width: 450px;
+}
 .foundationBox{
-  background: rgba(235, 0, 255, 0.22);
-  backdrop-filter: blur(200px);
+  background: rgba(247, 61, 254, 0.22);
+backdrop-filter: blur(204.478px);
   padding: 20px;
   border-radius: 30px;
   margin-bottom: 38px;
 }
 
 .foundationC .top{
-  width: 80%
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
 }
 
-
+.foundationC .top div{
+  width: 100%;
+}
 
 
 
@@ -34,6 +41,7 @@
     text-align: center;
     margin: auto;
     margin-bottom: 30px;
+    display: block;
   }
   .foundationC .top h1{
     margin-bottom: 30px;

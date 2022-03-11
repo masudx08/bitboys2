@@ -89,6 +89,7 @@
   width: 32px;
   margin-right: 27px;
   cursor: pointer;
+  max-width: 100%;
 }
 
 @media only screen and (max-width: 991px){

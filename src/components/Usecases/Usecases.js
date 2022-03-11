@@ -49,19 +49,21 @@ export default function Usecases() {
   return (
     <div className='useCasesC' id='usecases'>
       <div className='inner'>
-        <div>
-          <h1>Kynno’s ‍Use-Cases</h1>
+        <div className='top'>
+          <div>
+            <h1>Kynno’s ‍Use-Cases</h1>
+          </div>
+          <div className='text-area'>
+            <p>
+              Web3 is the third generation internet, based on new technologies like Blockchain and metaverse. Its main advantage is decentralization, unlike the current web dominated by GAFAM.
+            </p>
+            <p>
+              The metaverse refers to the future of the Internet: a virtual reality world in which users can interact. This concept is developing at a lightning speed, and the technology giants are investing massively. This is why KYNNO was born.
+            </p>
+          </div>
         </div>
-        <div className='text-area'>
-          <p>
-            Web3 is the third generation internet, based on new technologies like Blockchain and metaverse. Its main advantage is decentralization, unlike the current web dominated by GAFAM.
-          </p>
-          <p>
-            The metaverse refers to the future of the Internet: a virtual reality world in which users can interact. This concept is developing at a lightning speed, and the technology giants are investing massively. This is why KYNNO was born.
-          </p>
-        </div>
         <div>
-          <CustomSlider data={data} desktop={3} tab={3} mobile={1} />
+          <CustomSlider data={data} desktop={3} tab={2} mobile={1} />
         </div>
         <div className='bottom'>
           <h3>We’re On A Mission To Democratize Cryptocurrency</h3>

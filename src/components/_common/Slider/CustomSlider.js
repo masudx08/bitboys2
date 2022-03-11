@@ -4,8 +4,8 @@ import Line from '../../../images/line.png'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Tilt from 'react-tilt'
-export default function CustomSlider({data, desktop, tab,  mobile}) {
-  
+export default function CustomSlider({ data, desktop, tab, mobile }) {
+
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -14,11 +14,11 @@ export default function CustomSlider({data, desktop, tab,  mobile}) {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1700 },
-      items: desktop 
+      items: desktop
     },
     tablet: {
       breakpoint: { max: 1699, min: 751 },
-      items: tab 
+      items: tab
     },
     mobile: {
       breakpoint: { max: 750, min: 0 },
@@ -27,47 +27,45 @@ export default function CustomSlider({data, desktop, tab,  mobile}) {
   };
   return (
     <div>
-       <Carousel responsive={responsive}>
-       {
-          data && data.map((item, index)=>{
+      <Carousel responsive={responsive} infinite={true} autoPlay={false}>
+        {
+          data && data.map((item, index) => {
             return (
               <div key={index}>
-                 <Tilt className="Tilt slider-container" options={{ max : 25 }} >
-                <div className='sliderC'>
-              <div key={item}>
-                {/* <div>
-                  <img src={Line} alt="" />
-                </div> */}
-                <h4>{item.title1}</h4>
-                <p>
-                  {item.description1}
-                </p>
-                <h5>
-                  {item.title2}
-                </h5>
-                <p>
-                  {item.description2}
-                </p>
-                <h5>
-                  {item.title3}
-                </h5>
-                <p>
-                  {item.description3}
-                </p>
-                </div>
-                </div>
+                <Tilt className="Tilt slider-container"  >
+                  <div className='sliderC'>
+                    <div key={item}>
+                   
+                      <h4>{item.title1}</h4>
+                      <p>
+                        {item.description1}
+                      </p>
+                      <h5>
+                        {item.title2}
+                      </h5>
+                      <p>
+                        {item.description2}
+                      </p>
+                      <h5>
+                        {item.title3}
+                      </h5>
+                      <p>
+                        {item.description3}
+                      </p>
+                    </div>
+                  </div>
                 </Tilt>
               </div>
             )
           })
         }
         {
-          !data && 
+          !data &&
           <div>nothing</div>
         }
       </Carousel>
-     
-        
+
+
     </div>
   )
 }

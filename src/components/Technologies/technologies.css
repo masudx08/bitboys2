@@ -12,8 +12,9 @@
 }
 
 .techC .inner1{
+  width: 90%;
   margin: auto;
-  padding-top: 104px;
+  padding-top: 150px;
 }
 .techC h1{
   margin-bottom: 38px;
@@ -23,13 +24,27 @@
   margin: auto;
 }
 
+.techC .inner2 h2{
+  background: linear-gradient(180deg, #FA00FF 0%, #00D1FF 55.73%, #FFFFFF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
 
+.techC .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.techC .top div{
+  width: 100%;
+}
 
 
 
 .techBox{
   width: 100%;
-  background: rgba(235, 0, 255, 0.22);
+  background: rgba(87, 206, 251, 0.22);
   backdrop-filter: blur(200px);
   border-radius: 25px;
   padding: 20px;
@@ -44,12 +59,19 @@
   margin-top: 30px;
 }
 
+.techC .mycol{
+  max-width: 400px;
+}
 
 
 @media only screen and (max-width: 991px){
   .techC .inner1 {
     text-align: center;
     padding-top: 80px;
+  }
+  .techC .top{
+    display: block;
+    margin-bottom: 50px;
   }
   .techC .left{
     width: 100%;
@@ -85,7 +107,9 @@
 }
 
 @media only screen and (min-width: 992px){
-
+  .techC .setbg-1{
+    padding: 100px 0;
+  }
   .techBox{
     margin-bottom: 25px;
   }
