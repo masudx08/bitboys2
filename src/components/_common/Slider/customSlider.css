@@ -53,7 +53,10 @@
   .react-multiple-carousel__arrow{
     background:none!important;
   }
-  
+  .slider-container{
+    margin:0;
+    margin-bottom: 200px;
+  }
   .sliderC{
     padding: 10px
   }

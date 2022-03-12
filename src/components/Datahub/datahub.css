@@ -41,6 +41,9 @@
   .datahubC .top{
     display: block;
   }
+  .datahubC .top p{
+    text-align: center;
+  }
   .datahubC h1{
     text-align: center;
   }
