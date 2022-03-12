@@ -132,3 +132,9 @@
     margin-left: -43px;
   }
 }
+
+@media only screen and (min-width: 991px) and (max-width:1400px){
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 16px
+  }
+}

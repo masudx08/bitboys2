@@ -46,7 +46,7 @@ export default function Datahub() {
   return (
     <div className='datahubC' id='whitepaper'>
       <div className='inner '>
-        <div className='top mb-5'>
+        <div className='top '>
           <div>
             <h1>Kynno Data Hub</h1>
           </div>

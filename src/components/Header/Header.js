@@ -22,7 +22,7 @@ export default function Header() {
               documents efficiently and securely.
             </p>
           </div>
-          <div>
+          <div className='btnContainer'>
             <button className='btn1'>Invest in Pre-Seed</button>
             <button className='btn2'>View Video</button>
           </div>

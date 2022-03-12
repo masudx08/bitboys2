@@ -91,6 +91,7 @@ background-clip: text;
   }
   .techBox{
     border-radius: 10px;
+    margin-bottom: 20px;
   }
   .techBox p{
     font-size: 15px;
@@ -134,4 +135,11 @@ background-clip: text;
  .techC .inner2 h3{
    font-size: 40px
  }
+
+}
+
+@media only screen and (min-width: 991px){
+  .techC .top{
+    margin-bottom: 100px;
+  }
 }

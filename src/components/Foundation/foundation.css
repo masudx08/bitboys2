@@ -75,4 +75,7 @@ backdrop-filter: blur(204.478px);
   .foundationC{
     margin-top: 0;
   }
+  .foundationC .top{
+    margin-bottom: 80px;
+  }
 }

@@ -80,7 +80,13 @@
 
 
 @media only screen and (min-width: 991px) and (max-width:1400px){
+ 
  .aboutC h1{
-   font-size: 70px
+   font-size: 70px;
+   margin-bottom: 20px;
+   line-height: 80px;
+ }
+ .aboutC .setbg{
+   height: 400px
  }
 }
