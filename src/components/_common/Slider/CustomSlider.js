@@ -13,11 +13,11 @@ export default function CustomSlider({ data, desktop, tab, mobile }) {
       items: 5
     },
     desktop: {
-      breakpoint: { max: 3000, min: 1700 },
+      breakpoint: { max: 3000, min: 992 },
       items: desktop
     },
     tablet: {
-      breakpoint: { max: 1699, min: 751 },
+      breakpoint: { max: 991, min: 751 },
       items: tab
     },
     mobile: {
@@ -32,7 +32,20 @@ export default function CustomSlider({ data, desktop, tab, mobile }) {
           data && data.map((item, index) => {
             return (
               <div key={index}>
-                <Tilt className="Tilt slider-container"  >
+                <Tilt 
+                options = {
+                  {
+                    reverse:        false,  // reverse the tilt direction
+                    max:            15,     // max tilt rotation (degrees)
+                    perspective:    1000,   // Transform perspective, the lower the more extreme the tilt gets.
+                    scale:          1,      // 2 = 200%, 1.5 = 150%, etc..
+                    speed:          300,    // Speed of the enter/exit transition
+                    transition:     true,   // Set a transition on enter/exit.
+                    axis:           null,   // What axis should be disabled. Can be X or Y.
+                    reset:          true    // If the tilt effect has to be reset on exit.
+                  }
+              }
+                className="Tilt slider-container"  >
                   <div className='sliderC'>
                     <div key={item}>
                    

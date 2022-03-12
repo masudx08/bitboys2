@@ -3,6 +3,16 @@ import { Col, Row } from 'react-bootstrap'
 import Tilt from 'react-tilt'
 import './technologies.css'
 export default function Technologies() {
+  const tiltOptions = {
+      reverse:        false,  // reverse the tilt direction
+      max:            15,     // max tilt rotation (degrees)
+      perspective:    1000,   // Transform perspective, the lower the more extreme the tilt gets.
+      scale:          1,      // 2 = 200%, 1.5 = 150%, etc..
+      speed:          300,    // Speed of the enter/exit transition
+      transition:     true,   // Set a transition on enter/exit.
+      axis:           null,   // What axis should be disabled. Can be X or Y.
+      reset:          true    // If the tilt effect has to be reset on exit.
+}
   return (
 
     <div className='techC'>
@@ -31,7 +41,7 @@ export default function Technologies() {
 
               <Row className='justify-content-center align-items-center'>
                 <Col xs={12} sm={8} md={4} className='mycol'>
-                  <Tilt className="Tilt techBox" options={{ max: 25 }} >
+                  <Tilt className="Tilt techBox" options={tiltOptions} >
                     <div className="Tilt-inner">
                       <h4>Grant and Delegation Programs:</h4>
                       <p>
@@ -43,7 +53,7 @@ export default function Technologies() {
                   </Tilt>
                 </Col>
                 <Col xs={12} sm={8} md={4} className='mycol'>
-                  <Tilt className="Tilt techBox" options={{ max: 25 }} >
+                  <Tilt className="Tilt techBox" options={tiltOptions} >
                     <div className="Tilt-inner">
                       <h4>Research:</h4>
                       <p>
@@ -55,7 +65,7 @@ export default function Technologies() {
                   </Tilt>
                 </Col>
                 <Col xs={12} sm={8} md={4} className='mycol'>
-                  <Tilt className="Tilt techBox" options={{ max: 25 }} >
+                  <Tilt className="Tilt techBox" options={tiltOptions} >
                     <div className="Tilt-inner">
                       <h4>Education and Advancement:</h4>
                       <p>

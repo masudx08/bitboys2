@@ -3,10 +3,10 @@
   box-sizing: border-box;
   overflow: hidden;
   justify-content: center;
-  margin-right: 10px;
   background-image: url(../../../images/datahub-img.png);
   border-radius: 20px;
-
+  margin: 100px 25px;
+  height: 70%;
 }
 
 .sliderC{
@@ -81,12 +81,16 @@
 @media only screen and (min-width: 992px){
   .sliderC p{
     margin-bottom: 15px;
+    font-size: 13px;
+    line-height: 20px;
   }
   .sliderC h4{
     margin-bottom: 15px;
+    line-height: 24px;
   }
   .sliderC h5{
-    font-size: 24px;
+    font-size: 16px;
+    line-height: 25px;
     margin-bottom: 0px;
   }
 }

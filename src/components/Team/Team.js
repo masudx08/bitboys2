@@ -36,16 +36,34 @@ export default function Team() {
     {
       name: 'Simo Alami',
       title: 'CEO & Co-Founder',
+      description:<div>
+        Consequuntur, nam sit! <br />
+        dummy text of the printing  <br />
+        and typesetting industry.  <br />
+        Lorem Ipsum has been   <br />
+      </div>,
       img: Simo
     },
     {
       name: 'Nilton Rodrigues',
       title: 'CEO & Co-Founder',
+      description:<div>
+        Non rem pariatur <br />
+        dummy text of the printing  <br />
+        and typesetting industry.  <br />
+        Lorem Ipsum has been   <br />
+      </div>,
       img: Nilton
     },
     {
       name: 'Ahmed Oubadi',
       title: 'CTO & Blockchain Expert',
+      description:<div>
+        Lorem Ipsum is simply <br />
+        dummy text of the printing  <br />
+        and typesetting industry.  <br />
+        Lorem Ipsum has been   <br />
+      </div>,
       img: Ahmed
     },
   ]
@@ -121,14 +139,14 @@ export default function Team() {
                     <p>{member.name}</p>
                     <small>{member.title}</small>
                   </div>
-                  <Tooltip content={
+                  <Tooltip 
+                  
+                  content={
                     <div className='text-center'>
-                      Lorem Ipsum is simply <br />
-                      dummy text of the printing  <br />
-                      and typesetting industry.  <br />
-                      Lorem Ipsum has been  <br />
+                      {member.description}
                     </div>
-                  }>
+                  }
+                  >
                     <div className='myImg'>
                       <img src={member.img} alt="" />
                     </div>

@@ -18,13 +18,16 @@
 backdrop-filter: blur(204.478px);
   padding: 20px;
   border-radius: 30px;
-  margin-bottom: 38px;
+  
+  min-height: 220px;
+  max-height: 250px;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .foundationC .top{
   display: flex;
   justify-content: space-between;
-  align-items: center;
   margin-bottom: 50px;
 }
 
